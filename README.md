@@ -103,6 +103,34 @@ The portfolio is fully responsive and optimized for:
 - Content Security Policy
 - XSS protection
 
+## 🚀 Deployment
+
+This portfolio is deployed using GitHub Pages. To deploy your own version:
+
+1. Push your code to GitHub:
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/username/portfolio3.git
+git push -u origin main
+```
+
+2. Go to your GitHub repository settings
+3. Navigate to "Pages" in the sidebar
+4. Under "Source", select "main" branch
+5. Click "Save"
+6. Your site will be published at `https://username.github.io/portfolio3`
+
+### Custom Domain (Optional)
+1. In repository settings under "Pages"
+2. Enter your custom domain
+3. Update DNS settings with your domain provider
+4. Add CNAME file to your repository
+
+Live Demo: [https://shunsui254.github.io/portfolio3](https://shunsui254.github.io/portfolio3)
+
 ## 🤝 Contributing
 
 Feel free to fork this project and customize it for your own use. If you find any bugs or have suggestions:
