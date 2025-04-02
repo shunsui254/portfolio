@@ -59,7 +59,7 @@ portfolio3/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/portfolio3.git
+git clone https://github.com/shunsui254/portfolio.git
 ```
 
 2. Open `index.html` in your browser to view the portfolio.
