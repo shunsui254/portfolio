@@ -27,30 +27,30 @@ A modern, responsive portfolio website showcasing my journey as both a medical s
 ```
 portfolio3/
 │
-├── index.html              # Main portfolio page
-├── styles.css             # Main stylesheet
-├── README.md             # Project documentation
+├── index.html                      # Main portfolio page
+├── styles.css                      # Main stylesheet
+├── README.md                       # Project documentation
 │
 ├── assets/
-│   ├── images/           # Image assets
-│   │   ├── pp.png       # Profile picture
-│   │   ├── injection.png # Syringe icon
-│   └── programming.png # Programming icon
+│   ├── images/                     # Image assets
+│   │   ├── pp.png                  # Profile picture
+│   │   ├── injection.png           # Syringe icon
+│   └── programming.png             # Programming icon
 │   │
-│   ├── js/              # JavaScript files
-│   │   └── main.js      # Main JavaScript file
+│   ├── js/                         # JavaScript files
+│   │   └── main.js                 # Main JavaScript file
 │   │
-│   └── cv.pdf           # Downloadable CV
+│   └── cv.pdf                      # Downloadable CV
 │
-└── demos/               # Project demonstrations
-    ├── todo.html       # Todo List demo
-    ├── tictactoe.html  # Tic Tac Toe demo
+└── demos/                          # Project demonstrations
+    ├── todo.html                   # Todo List demo
+    ├── tictactoe.html              # Tic Tac Toe demo
     │
-    ├── css/           # Demo-specific styles
+    ├── css/                        # Demo-specific styles
     │   ├── todo.css
     │   └── tictactoe.css
     │
-    └── js/            # Demo-specific scripts
+    └── js/                         # Demo-specific scripts
         ├── todo.js
         └── tictactoe.js
 ```
