@@ -1113,7 +1113,13 @@ footer::before {
     }
     
     .dynamic-text {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+        padding: 10px;
+        gap: 10px;
+    }
+    
+    .left-emoji, .right-emoji {
+        font-size: 1.5rem;
     }
 }
 
@@ -1134,7 +1140,13 @@ footer::before {
     }
     
     .dynamic-text {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+        padding: 8px;
+        gap: 8px;
+    }
+    
+    .left-emoji, .right-emoji {
+        font-size: 1.2rem;
     }
 }
 
@@ -1253,23 +1265,25 @@ footer::before {
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap; /* Allow content to wrap */
+}
+
+.typing-container {
+    position: relative;
+    overflow: hidden;
+    white-space: normal; /* Allow text to wrap */
+    text-align: center; /* Center wrapped text */
+}
+
+#typing-text {
+    display: inline-block;
+    position: relative;
+    color: var(--text-light);
+    white-space: normal; /* Allow text to wrap */
 }
 
 .left-emoji, .right-emoji {
     font-size: 2rem;
     opacity: 1;
     animation: bounce 2s infinite;
-}
-
-.typing-container {
-    position: relative;
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-#typing-text {
-    display: inline-block;
-    white-space: nowrap;
-    position: relative;
-    color: var(--text-light);
 }

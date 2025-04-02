@@ -35,7 +35,7 @@ portfolio3/
 │   ├── images/           # Image assets
 │   │   ├── pp.png       # Profile picture
 │   │   ├── injection.png # Syringe icon
-│   │   └── programming.png # Programming icon
+│   └── programming.png # Programming icon
 │   │
 │   ├── js/              # JavaScript files
 │   │   └── main.js      # Main JavaScript file
@@ -113,7 +113,7 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/username/portfolio3.git
+git remote add origin https://github.com/shunsui254/portfolio.git
 git push -u origin main
 ```
 
@@ -121,7 +121,7 @@ git push -u origin main
 3. Navigate to "Pages" in the sidebar
 4. Under "Source", select "main" branch
 5. Click "Save"
-6. Your site will be published at `https://username.github.io/portfolio3`
+6. Your site will be published at `https://shunsui254.github.io/portfolio`
 
 ### Custom Domain (Optional)
 1. In repository settings under "Pages"
@@ -129,7 +129,15 @@ git push -u origin main
 3. Update DNS settings with your domain provider
 4. Add CNAME file to your repository
 
-Live Demo: [https://shunsui254.github.io/portfolio3](https://shunsui254.github.io/portfolio3)
+Live Demo: [https://shunsui254.github.io/portfolio](https://shunsui254.github.io/portfolio)
+
+## 🚀 Deployment Status
+
+This portfolio is live at [https://shunsui254.github.io/portfolio](https://shunsui254.github.io/portfolio)
+
+Last deployed: [Current Date]
+
+Build Status: [![GitHub Pages](https://img.shields.io/github/deployments/shunsui254/portfolio/github-pages?label=GitHub%20Pages&logo=github)](https://github.com/shunsui254/portfolio/deployments)
 
 ## 🤝 Contributing
 
@@ -149,7 +157,7 @@ This project is open source and available under the MIT License.
 
 Cecil Bezalel - [cecilbezalel@gmail.com](mailto:cecilbezalel@gmail.com)
 
-Project Link: [https://github.com/shunsui254/portfolio3](https://github.com/shunsui254/portfolio3)
+Project Link: [https://github.com/shunsui254/portfolio](https://github.com/shunsui254/portfolio)
 
 ## 🙏 Acknowledgments
 
