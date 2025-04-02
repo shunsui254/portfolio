@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags for SEO and responsive design -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no" />
+  <meta name="description" content="Cecil Bezalel - Medical Student and Software Developer Portfolio">
+  <meta name="keywords" content="portfolio, medical student, software developer, web development">
+  <title>Cecil Bezalel</title>
+  <link rel="icon" type="image/png" href="assets/images/pp.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Scroll progress indicator -->
+  <div class="scroll-progress"></div>
+  
+  <!-- Header with sticky navigation -->
+  <header class="site-header sticky-header">
+    <h1><span class="first-name">Cecil</span><span class="last-name">Bezalel</span></h1>
+    <div class="header-icons">
+      <img src="assets/images/programming.png" alt="Programming" class="programming-icon">
+      <a href="https://www.flaticon.com/free-icons/syringe" title="syringe icons" target="_blank" rel="noopener noreferrer">
+        <img src="assets/images/injection.png" alt="Syringe" class="syringe-icon">
+      </a>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#education"><span>Education</span></a></li>
+        <li><a href="#skills"><span>Skills</span></a></li>
+        <li><a href="#projects"><span>Projects</span></a></li>
+        <li><a href="#interests"><span>Interests</span></a></li>
+        <li><a href="#contact"><span>Contact</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About section with dynamic typing effect -->
+    <section class="about-content">
+      <p class="dynamic-text">
+        <span class="left-emoji">👨‍⚕️</span>
+        <span class="typing-container">
+          <span id="typing-text">
+            <span class="doctor-part"></span>
+            <span class="coder-part"></span>
+          </span>
+        </span>
+        <span class="right-emoji">💻</span>
+      </p>
+      <p>Hey there! I'm a medical student who swaps scalpels for semicolons and anatomy books for algorithms. When I'm not diagnosing patients (or my buggy code), I'm building apps, automating my study schedule, and trying to debug both JavaScript and my sleep cycle.</p>
+      <p>Passionate about merging medicine and tech—because why not treat both humans and servers?</p>
+      <p>Let's <a href="#contact" class="about-link"><span>connect</span></a> if you need a prescription for some clean code! 🚀</p>
+    </section>
+
+    <!-- Education section with animated cards -->
+    <section id="education">
+      <h2>Educational Background</h2>
+      <p class="education-intro">Well, I'm self-taught but that doesn't mean I wasn't with the relevance guidance that I required😂</p>
+      <p class="education-note">(For context, the self-taught part doesn't apply to Medicine😂)</p>
+      <div class="education-content">
+        <div class="education-item">
+          <h3><i class="fas fa-laptop-code"></i> Power Learn Project Africa</h3>
+          <p class="degree">Software Development</p>
+          <p class="year">02.2025 - present</p>
+        </div>
+        <div class="education-item">
+          <h3><i class="fas fa-user-md"></i> University of Nairobi</h3>
+          <p class="degree">Medicine and Surgery</p>
+          <p class="year">2023 - present</p>
+        </div>
+        <div class="education-item">
+          <h3><i class="fas fa-school"></i> Moi High School - Kabarak</h3>
+          <p class="degree">Here I successfully attained my highschool KCSE certificate, Mean Grade A</p>
+          <p class="year">01. 2018 - 04. 2022 (Longer due to COVID restrictions)</p>
+        </div>
+        <div class="cv-download">
+          <a href="assets/cv.pdf" class="download-btn" download>
+            <i class="fas fa-download"></i> Download CV
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills section with interactive categories -->
+    <section id="skills" class="skills-section">
+      <h2>Programming Languages & Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Programming Languages</h3>
+          <ul>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-globe"></i> Web Technologies</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+          <ul>
+            <li>Git</li>
+            <li>MySQL</li>
+            <li>VS Code</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects showcase with hover effects -->
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="project">
+          <h3><i class="fas fa-tasks"></i> To-Do List Application</h3>
+          <p>A command-line task management application built with Python. Features include adding, viewing, completing, and deleting tasks with persistent storage using JSON. The application includes user-friendly interfaces with confirmation prompts and error handling.</p>
+          <div class="project-links">
+            <a href="https://github.com/shunsui254/To-Do-List" class="project-link" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="demos/todo.html" class="project-link demo-link">
+              <i class="fas fa-play"></i> Live Demo
+            </a>
+          </div>
+        </article>
+        <article class="project">
+          <h3><i class="fas fa-gamepad"></i> Tic Tac Toe Game</h3>
+          <p>A command-line Tic Tac Toe game built with Python featuring a 3x3 board, player customization, score tracking, and intelligent game state detection. Players can choose their symbols (X or O), track their wins, and play multiple rounds with a leaderboard display.</p>
+          <div class="project-links">
+            <a href="https://github.com/shunsui254/TicTacToe" class="project-link" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="demos/tictactoe.html" class="project-link demo-link">
+              <i class="fas fa-play"></i> Live Demo
+            </a>
+          </div>
+        </article>
+        <article class="project">
+          <h3><i class="fas fa-rocket"></i> Project 3</h3>
+          <p>Coming soon!! 😁</p>
+          <div class="project-links">
+            <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Professional interests with animation -->
+    <section id="interests" class="interests-section">
+      <h2>Professional Interests</h2>
+      <div class="interests-content">
+        <article class="interest-item">
+          <h3><i class="fas fa-brain"></i> Artificial Intelligence</h3>
+          <p>Fascinated by the potential of AI to transform industries and improve lives.</p>
+        </article>
+        <article class="interest-item">
+          <h3><i class="fas fa-laptop-code"></i> Web Development</h3>
+          <p>Passionate about creating responsive and user-friendly web applications.</p>
+        </article>
+        <article class="interest-item">
+          <h3><i class="fas fa-cloud"></i> Cloud Computing</h3>
+          <p>Interested in scalable solutions and cloud infrastructure.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact form with FormSpree integration -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+      <div class="contact-container">
+        <form class="contact-form" action="https://formspree.io/f/myzeddzv" method="POST">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+        <div class="contact-info">
+          <h3>Other Ways to Connect</h3>
+          <ul>
+            <li><a href="mailto:cecilbezalel@gmail.com"><i class="fas fa-envelope"></i> cecilbezalel@gmail.com</a></li>
+            <li><a href="https://github.com/shunsui254" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a></li>
+            <li><a href="https://wa.me/254799350952" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer with dynamic effects -->
+  <footer>
+    <a href="#" class="back-to-top">
+      <p>&copy; Designed & built by <span class="footer-name">Cecil Bezalel</span></p>
+    </a>
+  </footer>
+
+  <!-- Floating back-to-top button -->
+  <a href="#" class="back-to-top-btn" id="backToTopBtn">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
