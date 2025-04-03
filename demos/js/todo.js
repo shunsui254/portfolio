@@ -12,6 +12,13 @@ function addTodo() {
     }
 }
 
+// Add event listener for Enter key
+document.getElementById('todoInput').addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+        addTodo();
+    }
+});
+
 // Toggle todo completion status
 function toggleTodo(index) {
     todos[index].completed = !todos[index].completed;
