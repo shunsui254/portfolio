@@ -204,6 +204,38 @@ header h1 {
     margin-right: 10px;
 }
 
+.header-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Changed from fixed height to 100% */
+    overflow: hidden;
+    z-index: -1;
+}
+
+.header-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1; /* fully visible */
+    transition: filter 0.4s ease-out;
+}
+
+.header-image.blur {
+    filter: blur(8px);
+}
+
+.header-content {
+    position: relative;
+    padding: 20px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), transparent);
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 nav {
     width: 100%;
     max-width: 800px;
@@ -230,8 +262,16 @@ nav ul li a {
     white-space: nowrap;
     display: inline-block;
     position: relative;
-    font-weight: 700;
-    letter-spacing: 0.5px;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.6);
+    transform: translateY(-2px);
 }
 
 nav ul li a::after {

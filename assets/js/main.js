@@ -48,6 +48,8 @@ document.addEventListener("DOMContentLoaded", () => {
     scrollProgress.className = 'scroll-progress';
     document.body.appendChild(scrollProgress);
 
+    let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
     // Handle scroll events for progress bar and back-to-top button
     window.addEventListener('scroll', () => {
         // Calculate scroll percentage
@@ -63,6 +65,16 @@ document.addEventListener("DOMContentLoaded", () => {
         } else {
             backToTopBtn.classList.remove('visible');
         }
+
+        const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+        const headerImage = document.querySelector('.header-image');
+        // When scrolling down, currentScroll is greater than lastScrollTop
+        if (currentScroll > lastScrollTop) {
+            headerImage.classList.add('blur');
+        } else {
+            headerImage.classList.remove('blur');
+        }
+        lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
     });
 
     // Implement smooth scrolling for navigation links
