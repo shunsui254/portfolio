@@ -13,6 +13,22 @@ A modern, responsive portfolio website showcasing my journey as both a medical s
 - Dynamic typing effect
 - Interactive project cards with live demos
 
+### Visual Effects
+- Dynamic header image with scroll-based blur effects
+- Enhanced navigation visibility with semi-transparent backgrounds
+- Gradient overlays for better text readability
+- Custom scrollbar with theme colors
+- High-performance animations and transitions
+- Improved contrast for navigation elements
+- Consistent text shadows for better readability
+
+### Performance Optimizations
+- Optimized blur transitions
+- Efficient scroll event handling
+- Hardware-accelerated animations
+- Reduced layout shifts
+- Progressive image loading
+
 ## 🛠️ Technologies Used
 
 - HTML5
@@ -94,6 +110,18 @@ The portfolio is fully responsive and optimized for:
 - Lazy loading of images
 - Smooth animations
 - Browser caching support
+
+## 🎨 Styling
+
+The portfolio uses a carefully crafted visual hierarchy with:
+- Semi-transparent dark overlays for readability
+- Consistent text shadows for depth
+- Strategic use of blur effects
+- Smooth transitions between states
+- Responsive typography scaling
+- Interactive hover states
+- Custom scrollbar styling
+- Theme-consistent gradients
 
 ## 🔒 Security Features
 
